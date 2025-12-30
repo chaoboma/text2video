@@ -19,7 +19,7 @@ parser.add_argument('--guidance_scale_2', type=float, default=3.0, help='Guidanc
 parser.add_argument('--num_inference_steps', type=int, default=40, help='Number of inference steps')
 parser.add_argument('--cpu_offload', action='store_true', help='Enable CPU offloading')
 parser.add_argument('--output', type=str, default='t2v_out.mp4', help='Output video file path')
-parser.add_argument('--fps', type=int, default=16, help='FPS of output video')cp boy.mp4 /home/dataclasses
+parser.add_argument('--fps', type=int, default=16, help='FPS of output video')
 
 args = parser.parse_args()
 
